@@ -1,0 +1,13 @@
+def Sum(items):
+    sum_numbers = 0
+    for i in items:
+        sum_numbers += i
+    print(sum_numbers)
+li=[]
+ch=1
+while(ch!=0):
+    a=int(input("Enter the element of the list :"))
+    li.append(a)
+    print("Elements of the list is ",li)
+    ch=int(input("Enter 0 to exit and any ke to comtinue...."))
+Sum(li)
