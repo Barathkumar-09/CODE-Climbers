@@ -30,6 +30,7 @@ def p():
     ]
     return logo
 
+
 def y():
     G = green
     R = red
