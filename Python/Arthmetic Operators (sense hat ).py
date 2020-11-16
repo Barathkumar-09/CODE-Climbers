@@ -12,7 +12,7 @@ white = (255,255,255)
 nothing = (0,0,0)
 pink = (255,105, 180)
 
-def logo():
+def logo1():
     G = green
     Y = yellow
     B = blue
@@ -74,7 +74,7 @@ def equals():
     ]
     return logo
 
-images = [logo, trinket_logo, plus, raspi_logo, raspi_logo, equals]
+images = [logo1, trinket_logo, plus, raspi_logo, raspi_logo, equals]
 count = 0
 
 while True: 
